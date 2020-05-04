@@ -1,0 +1,71 @@
+<!DOCKTYPE>
+<html>
+	<head>
+		<body>
+			<h2>Heyy<h2>
+			<h1>Heyy</h1>	
+
+			<img src = "shrungesh.png" height="100px">
+			<form>
+				<div><label for="name">Full Name </label>
+				<input type="text" name="name">	
+				</div>
+				
+				<div>
+				<label for="gender">Male</label>		
+				<input type="radio" name="gender">
+				<label for="gender"> Female</label>	
+				<input type="radio" name="gender">
+				<label for="gender"> Others</label>
+				<input type="radio" name="gender">
+				</div>
+
+				<div>
+				<label for="email"> Enter email</label>
+				<input type="email" name="email">	
+				</div>
+
+				<div>
+				<label for="password">Enter password</label>
+				<input type="password" name="password"	
+				</div>
+
+
+				<div>
+				<label for="Month">DOB</label>
+				<select name="Month">
+				<option value="Jan">Jan</option>
+				<option value="Feb">Feb</option>
+				<option value="March">March</option>
+				<option value="April">April</option>
+				</select>	
+				</div>
+
+
+				<div>
+				<h4>Do you agree to the conditions</h4>
+				<label for="checkbox"> I agree </label>
+				<input type="checkbox" name="checkbox">	
+				</div>
+
+				<div>
+				<button type="submit" >SUBMIT</button>
+				</div>
+			</form>
+
+
+			<table>
+				<thead>
+					<th>Name Roll Age</th>
+					<tr><td>
+					<td>Atharva</td>
+					<td>7</td>
+					<td>21 </td>
+					</tr>
+				</thead>
+			</table>
+
+
+		</body>
+	</head>
+</html>
